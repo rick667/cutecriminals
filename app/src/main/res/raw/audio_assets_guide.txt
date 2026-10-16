@@ -1,0 +1,32 @@
+GUIA DE ARQUIVOS DE ÁUDIO PARA SONOPLASTIA (res/raw/)
+
+Você pode soltar seus arquivos de áudio (.ogg, .wav ou .mp3) diretamente nesta pasta:
+app/src/main/res/raw/
+
+Nomes esperados para substituição automática do fallback procedural:
+
+EFEITOS SONOROS (SFX):
+- sfx_button_click.ogg     -> Clique em botões de menus, abas e diálogos
+- sfx_screw_select.ogg     -> Toque / seleção de um parafuso
+- sfx_screw_unscrew.ogg    -> Rotação mecânica / retirada da rosca
+- sfx_screw_place.ogg      -> Encaixe firme do parafuso no furo vazio
+- sfx_screw_fail.ogg       -> Tentativa de tocar em parafuso bloqueado/obstruído
+- sfx_plate_fall.ogg       -> Queda de chapa metálica / acrílica
+- sfx_coin_collect.ogg     -> Coleta de moedas e recompensas
+- sfx_dialogue_marcel.ogg  -> Blip de voz / fala do Marcel
+- sfx_dialogue_luna.ogg    -> Blip de voz / fala da Luna
+- sfx_dialogue_duque.ogg   -> Blip de voz / fala do Duque Von Poddle
+- sfx_victory.ogg          -> Fanfarra de vitória da fase / resgate de obra
+- sfx_game_over.ogg        -> Som de derrota / tempo esgotado
+- sfx_alarm_warning.ogg    -> Alerta / sirene de reforço do antagonista
+- sfx_chest_open.ogg       -> Abertura de baú do cofre
+
+TRILHAS MUSICAIS (BGM):
+- bgm_main_theme.ogg       -> Música tema do Refúgio / Menus
+- bgm_puzzle_flow.ogg      -> Música ambiente calma durante o puzzle dos parafusos
+- bgm_assault_tension.ogg  -> Música de tensão no modo invasão/assalto com tempo correndo
+
+Nota: O SoundManager possui fallback procedural nativo.
+Se você ainda não tiver colocado o arquivo na pasta, o jogo gera os sons simples
+automaticamente por síntese PCM com zero latência. Quando você adicionar o arquivo aqui,
+o SoundManager usará automaticamente seu áudio gravado em alta definição!

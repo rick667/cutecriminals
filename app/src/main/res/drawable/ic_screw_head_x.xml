@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Screw Head Circular Base (Solid White #FFFFFF for custom tinting) -->
+    <path
+        android:pathData="M48,48 m-44,0 a44,44 0 1,0 88,0 a44,44 0 1,0 -88,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Outer Bevel Ring Highlight (Subtle 3D Rim) -->
+    <path
+        android:pathData="M48,48 m-40,0 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.75"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000" />
+
+    <!-- Top Crescent Glaze Highlight -->
+    <path
+        android:pathData="M18,36 C24,20 38,12 54,12 C64,12 73,16 80,22 C72,17 62,15 52,15 C36,15 24,23 18,36 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.45" />
+
+    <!-- Recessed Phillips "X" Slot - Soft Inner Shadow (for 3D depth) -->
+    <!-- Vertical shadow bar -->
+    <path
+        android:pathData="M44,21 L52,21 A3,3 0 0,1 55,24 L55,72 A3,3 0 0,1 52,75 L44,75 A3,3 0 0,1 41,72 L41,24 A3,3 0 0,1 44,21 Z"
+        android:fillColor="#000000"
+        android:fillAlpha="0.22" />
+    <!-- Horizontal shadow bar -->
+    <path
+        android:pathData="M21,44 L75,44 A3,3 0 0,1 78,47 L78,55 A3,3 0 0,1 75,58 L21,58 A3,3 0 0,1 18,55 L18,47 A3,3 0 0,1 21,44 Z"
+        android:fillColor="#000000"
+        android:fillAlpha="0.22" />
+
+    <!-- Recessed Phillips "X" Slot - Main Crisp Cross (White with subtle contrast) -->
+    <!-- Vertical Arm -->
+    <path
+        android:pathData="M44,20 L52,20 A3,3 0 0,1 55,23 L55,73 A3,3 0 0,1 52,76 L44,76 A3,3 0 0,1 41,73 L41,23 A3,3 0 0,1 44,20 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.95" />
+    <!-- Horizontal Arm -->
+    <path
+        android:pathData="M20,44 L76,44 A3,3 0 0,1 79,47 L79,52 A3,3 0 0,1 76,55 L20,55 A3,3 0 0,1 17,52 L17,47 A3,3 0 0,1 20,44 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.95" />
+
+    <!-- Center Phillips Beveled Inset Cone -->
+    <path
+        android:pathData="M48,48 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"
+        android:fillColor="#000000"
+        android:fillAlpha="0.12" />
+
+    <!-- Central Micro Highlight Sparkle -->
+    <path
+        android:pathData="M48,45 L49,47 L51,48 L49,49 L48,51 L47,49 L45,48 L47,47 Z"
+        android:fillColor="#FFFFFF" />
+
+</vector>
